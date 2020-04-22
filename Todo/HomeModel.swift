@@ -15,7 +15,7 @@ class HomeModel: NSObject, URLSessionDataDelegate{
     weak var delegate: HomeModelProtocol!
     var data = Data()
     
-    let urlPath: String = "https://www.lhsrobotics.net/pullTeamNums.php"
+    let urlPath: String = "---INSERT PHP LINK HERE---"
     
     func downloadItems(){
         
